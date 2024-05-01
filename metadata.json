@@ -1,0 +1,14 @@
+{
+    "name": "AutoKick",
+    "creator": "Ghostyy",
+    "version": "0.0.1",
+    "description": "Noone in p finder is safe.",
+    "entry": "index.js",
+    "requires": [
+      "Vigilance",
+      "BloomCore",
+      "PogData",
+      "RenderLib",
+      "FontLib"
+    ]
+  }
