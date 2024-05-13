@@ -121,7 +121,7 @@ register("chat", (player, classs, level) => {
         }
 
         // Auto Kick 
-        if (config.AutoKick && toKick) {
+        if (config.AutoKick && toKick[0]) {
             setTimeout(() => {
                 ChatLib.command(
                     `p kick ${impData.ign}`
